@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-image: url(./assets/Untitled\ design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body > div {
+  margin: 50px 100px 10px 100px;
+  height: 90vh;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+body {
+  background: linear-gradient(71deg, #1d1b83, #9f1d1d);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 58s ease infinite;
+  -moz-animation: AnimationName 58s ease infinite;
+  -o-animation: AnimationName 58s ease infinite;
+  animation: AnimationName 58s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
