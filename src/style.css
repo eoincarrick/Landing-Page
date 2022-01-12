@@ -13,62 +13,11 @@
 body > div {
   margin: 50px 100px 10px 100px;
   height: 90vh;
-  border: 0.1rem solid white;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  background: linear-gradient(293deg, #8987dd, #b25454);
-  background-size: 400% 400%;
-  -webkit-animation: bk 59s ease infinite;
-  -moz-animation: bk 59s ease infinite;
-  -o-animation: bk 59s ease infinite;
-  animation: bk 59s ease infinite;
-}
-@-webkit-keyframes bk {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
-@-moz-keyframes bk {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
-@-o-keyframes bk {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
-@keyframes bk {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
 }
 
 body {
@@ -127,14 +76,71 @@ body {
 .navBar {
   display: flex;
   width: 100%;
+  height: 5rem;
   align-items: center;
-  background: transparent;
   padding: 1rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(88deg, #0600ff, #ff0000);
+  background-size: 400% 400%;
+  -webkit-animation: navBar 59s ease infinite;
+  -moz-animation: navBar 59s ease infinite;
+  -o-animation: navBar 59s ease infinite;
+  animation: navBar 59s ease infinite;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+@-webkit-keyframes navBar {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@-moz-keyframes navBar {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@-o-keyframes navBar {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@keyframes navBar {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
 }
 
 .logo {
   color: white;
   flex: 1;
+  font-size: 2rem;
+  padding: 2rem
 }
 
 .navList {
@@ -148,6 +154,66 @@ body {
 .links {
   text-decoration: none;
   margin: 0.5rem;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.active {
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  background: linear-gradient(88deg, #010016, #ffe1e1);
+  background-size: 400% 400%;
+  -webkit-animation: active 59s ease infinite;
+  -moz-animation: active 59s ease infinite;
+  -o-animation: active 59s ease infinite;
+  animation: active 59s ease infinite;
+}
+@-webkit-keyframes active {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@-moz-keyframes active {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@-o-keyframes active {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
+}
+@keyframes active {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
 }
 
 .lists {
